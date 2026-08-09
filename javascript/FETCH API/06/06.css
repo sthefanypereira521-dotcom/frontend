@@ -1,0 +1,9 @@
+div {
+    background: beige;
+    font-weight: bold;
+    font-size: 19px;
+    border-right: 16px groove navy;
+    border-bottom: 16px groove navy;
+    border-left: 16px groove navy;
+    border-top: 16px groove navy;
+}
