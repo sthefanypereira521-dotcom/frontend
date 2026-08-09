@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula-7</title>
+</head>
+<body>
+    <form action="javascript:alert('informaçao enviada');">
+        <input type="text" value="Texto">
+
+        <label for="name">Nome:</label>
+        <input id="nome" type="text" placeholder="insira um texto" name="texto" required><br><br>
+
+
+        <input type="radio" id="html" name="escolha">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="css" name="escolha">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="js" name="escolha">
+        <label for="js">JS</label><br><br>
+
+
+        <input type="checkbox" id="python">
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="java">
+        <label for="java">Java</label><br>
+
+        <input type="checkbox" id="frameworks">
+        <label for="framework">Frameworks</label><br><br><br>
+
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password" minlength="6" maxlength="10" required><br><br><br>
+
+
+        <label for="numeros">numeros</label>
+        <input id="numeros" type="number"><br><br>
+
+
+        <label for="calendario">calendário</label>
+        <input id="calendario"type="date" min="2026-01-01" max="2026-12-31"><br><br>
+
+
+        <textarea rows="10" cols="30">
+            descriçao
+        </textarea><br><br>
+
+
+        <select id="Carros">
+            <optgroup label="Leclerc E Hamilton ">
+                <option value="Ferrari">Ferrari</option>
+            </optgroup>
+            <optgroup label="Russel E Antonelli">
+                <option value="Mercedes">Mercedes</option>
+            </optgroup>
+            <optgroup label="Norris E Piastri">
+                <option value="Mclaren">Mclaren</option>
+            </optgroup>
+            <optgroup label="Verstappen E Hadjar">
+                <option value="Red Bull">Red Bull</option>
+            </optgroup>  
+        </select><br><br>
+
+
+
+        <label for="arquivo">Envie um arquivo:</label>
+        <input type="file" multiple><br><br>
+
+
+        <input type="range" min="0" max="10"><br><br>
+
+        <button type="submit">enviar</button><br><br>
+        
+    </form>
+</body>
+</html>
