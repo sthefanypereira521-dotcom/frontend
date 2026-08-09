@@ -1,0 +1,28 @@
+div {
+    background: salmon;
+}
+
+p {
+    color: rebeccapurple;
+}
+
+
+#rgb {
+    width: 100px;
+    height: 100px;
+    background: rgb(159, 149, 69); 
+    opacity: 0.3;
+}
+
+#rgb1 {
+    width: 100px;
+    height: 100px;
+    background: rgb(248, 173, 33); 
+    
+}
+
+#hsl {
+    width: 100px;
+    height: 100px;
+    background-color:hsl(84, 89%, 62%)
+}

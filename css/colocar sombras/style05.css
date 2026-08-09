@@ -1,0 +1,10 @@
+h1 {
+    text-shadow: 3px 4px 4px purple, black  3px -3px 4px;
+}
+
+#caixa123 {
+    background: rgb(56, 57, 57);
+    width: 150px;
+    height: 150px;
+    box-shadow: 3px -3px 4px rgb(85, 88, 92);
+}

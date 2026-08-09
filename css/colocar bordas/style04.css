@@ -1,0 +1,23 @@
+#borda-1 {
+     border-right: 5px groove yellowgreen;
+     border-top: 10px double gold;
+     border-bottom: 6px groove yellowgreen;
+     border-left: 12px double gold;
+}
+
+#borda-2 {
+    border-right: 5px groove darkblue;
+    border-top: 10px double  red;
+    border-left: 14px double  darkblue;
+    border-bottom: 6px groove darkmagenta;
+}
+
+
+#borda-3 {
+    border-top: 6px dotted palevioletred;
+    border-bottom: 6px groove plum;
+    border-left: 13px double palegreen;
+    border-right: 7px groove palegreen;
+}
+
+

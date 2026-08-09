@@ -1,0 +1,64 @@
+.button {
+    cursor: pointer;
+    background-color: beige;
+    border: 3px solid black;
+    padding: 8px 14px;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+
+#botão1 {
+    border: 3px solid rgb(130, 255, 47);
+}
+
+#botão1:hover {
+    background-color:rgb(255, 47, 203);
+    color: darkblue;
+}
+
+
+
+#botão2 {
+    border: 3px solid rgb(255, 47, 47);
+}
+
+#botão2:hover {
+    background-color:rgb(102, 47, 255);
+    color: violet;
+}
+
+
+
+#botão3 {
+    border: 3px solid gold;
+}
+
+#botão3:hover {
+    background-color:darkblue;
+    color: yellow;
+}
+
+
+
+#botão4 {
+    border: 3px solid rgb(255, 47, 203);
+}
+
+#botão4:hover {
+    background-color:black;
+    color:burlywood;
+}
+
+
+
+#botão5 {
+    border: 3px solid black;
+}
+
+#botão5:hover {
+    cursor: wait;
+    background-color: darkslateblue ;
+    color: bisque;
+
+}
